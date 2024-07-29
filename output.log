@@ -1,0 +1,26 @@
+WELCOME
+10 10
+Inventory [food 10]
+State changed to: Food
+Taking food : 17 times
+weird ? ko
+broken pipe
+Inventory [food 11]
+elt2 message 0,Hello
+They're spitting nonsense
+elt2 message 3,Hello
+They're spitting nonsense
+elt2 message 0,Hello
+They're spitting nonsense
+elt2 message 3,Hello
+They're spitting nonsense
+State changed to: Stone
+searching for linemate
+Taking linemate : 10 times
+
+Interrupted by user!
+ate changed to: Stone
+searching for linemate
+Taking linemate : 10 times
+
+Interrupted by user!

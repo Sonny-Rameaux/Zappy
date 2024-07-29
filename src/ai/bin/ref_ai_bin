@@ -1,0 +1,6 @@
+#!/bin/sh
+inputVars=()
+for i in "$@"; do
+    inputVars+=("$i")
+done
+python3 src/ai/client.py "${inputVars[@]}"

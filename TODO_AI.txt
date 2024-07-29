@@ -1,0 +1,125 @@
+SERVER: 25 points
+
+1 point: Serveur tourne en continue
+
+1 point: Serveur select non bloquant
+
+4 points: buffer management
+
+Serveur lire et écrire avec un buffer, complex buffer
+
+1 point: cas d'erreurs (data overflow)
+
+1 point: buffer .so
+
+1 points: Ils vont lancer des tests
+
+4 points: Ils ont d'autres batteries de tests (20 clients avec des teams différentes)
+
+layers dans l'architecture (entre applicatif et network)
+
+3 points si librairies séparées
+
+3 points: error management
+
+Vérifier tous les syscall (malloc, read, write, select)
+
+Error management : pas de param (param par défaut), param invalide (afficher pourquoi), time négative, port qui existe pas, nom de team identique
+
+protocoles :
+
+3 points : Bouger devant derrière etc et inventaire
+
+1: look, fork, mettre un objet, prendre un objet
+
+1: incantation, broadcast
+
+2 points: frequency calculée correctement (f à 1, forward 7 secondes, fork 42 secondes)
+
+1 point: Timeout au niveau des commandes
+--------
+GUI : 27 points en tout
+1 point : GUI
+
+1 point si buffer pour lire message qui arrive
+
+1 point: pas bloquant
+
+3D = 3 points et très beau 4 points
+
+voir des infos sur les joueurs, team, level inventaire = 1 point
+
+info sur case = 1 point
+info sur team = 1 point
+info sur map = 1 point
+
+si on peut se déplacer avec la caméra = 1 point
+
+si animation smooth = 2 points
+
+3 points si nice interaction (avec le GUI)
+
+si toutes les commandes = 2 points + expanded = 3 points
+
+si le network est dans des classes et bien encapsulé = 1 point
+
+interfaces pour network = 2 points
+
+render si interfaces = 2 points
+
+si bonne séparation des comportements (code network aucun lien avec render) = 1 points
+
+classe de network split en 2 morceaux au moins = 1 point
+
+si render n'a pas besoin du network pour se lancer = 1 point
+
+-------------------------------
+IA : 18 points en tout
+
+IA = 1 point
+
+si client a un buffer pour lire et écrire = 1 point
+
+si ya un algo pour évaluer les alentours = 1 point
+
+si librairie externe comme tensorflow ou algo complexe = 3 points (state machine, réseau de neuronne)
+
+si les IA communiquent entre elle = 1 point
+
+système d'encodage ou chiffrement pour le broadcast = 1 point
+
+si attaque d'une IA vers les autres teams avec broadcast = 1
+
+level IA max peut aller (1 point par level)
+
+test 10 minutes max
+
+nombre max d'IA 5 de base
+
+when a client fork, if needed, you can start a new AI manually
+
+------------------
+Skills et Grade :
+
+6 skills core et 11 skills
+
+D = 3 skills core
+C = 3 cores et 2 skills
+B = 7 skills dont 3 cores
+A = 5 cores et 9 skills
+
+skills core :
+
+IA : 5 points level + communication + complexité algo (8 points = 1 skill normal en +)
+GUI : 4 points render (2D 3D) + information display + interaction
+SERVER : Gérer protocole server et gui + param programme + gestion du temps
+
+select : server gui et ia = 1 core
+
+core sur architecture (erreur, encapsulation)
+
+advanced architecture = 1 core
+
+10 points = 1 skill (core ?)
+
+souvent, points en + = skill normal en +
